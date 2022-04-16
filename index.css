@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 
+.header {
+  font-family: 'Raleway', 'sans-serif';
+}
 
 .profiles {
+  font-family: 'Raleway', 'sans-serif';
   column-count: 4;
 }
