@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 /* HEADER NAV */
-.header {
+header {
   font-family: 'Raleway', 'sans-serif';
   box-sizing: border-box;
   margin: 0;
@@ -29,4 +29,18 @@
 
 .nav_links li a:hover {
   color: #d9b411;
+}
+
+button {
+  padding: 9px 25px;
+  background-color: #d9b411;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  color: #ededed;
+  background-color: #1e1e1f;
 }
