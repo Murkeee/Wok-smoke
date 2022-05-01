@@ -50,3 +50,68 @@ button:hover {
   color: #ededed;
   background-color: #1e1e1f;
 }
+
+
+
+input[type='checkbox'] {
+  display: none;
+}
+
+.toggle:checked + .lbl-toggle {
+  background-color: var(--font-color);
+  color: var(--bg-color);
+  padding: 2px 4px;
+}
+
+.lbl-toggle:hover {
+  background-color: var(--font-color);
+  color: var(--bg-color);
+  padding: 2px 4px;
+}
+
+.lbl-toggle {
+  margin-bottom: 7px;
+  font-size: 12.5px;
+}
+
+.lbl-toggle:hover::before, .lbl-toggle:hover::after {
+  display:inline-block;
+  margin: -4px;
+  transition: transform .3s ease-out;
+}
+
+.lbl-toggle::after {
+  display: none;
+  content: '< ';
+  transition: transform .6s ease-out;
+}
+
+.lbl-toggle::before {
+  display: none;
+  content: '> ';
+  transition: transform .6s ease-out;
+}
+
+.toggle:checked + .lbl-toggle::before, .toggle:checked + .lbl-toggle::after {
+  display:inline-block;
+  margin: -4px;
+  transform: rotate(180deg) translateY(-1.5px) translateX(1px);
+}
+
+.collapsible-content {
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height .2s ease-in-out;
+}
+
+.collapsible-content ul, .collapsible-content li {
+  text-align:left;
+}
+
+.toggle:checked + .lbl-toggle + .collapsible-content {
+  max-height: 300vh;
+}
+
+.collapsible-wrapper {
+  margin: 6px;
+}
