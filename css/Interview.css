@@ -50,6 +50,7 @@ button:hover {
   color: #ededed;
   background-color: #1e1e1f;
 }
+
 h2{
   font-family: 'Raleway', 'sans-serif';
   color: #ededed;
@@ -60,16 +61,10 @@ h3{
   font-family: 'Raleway', 'sans-serif';
   color: #ededed;
   font-size: 24px;
-  text-align: center;
 }
 p {
   font-family: 'Raleway', 'sans-serif';
   color: #ededed;
   font-size: 18px;
   text-align: center;
-}
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
