@@ -37,6 +37,10 @@ header {
   color: #d9b411;
 }
 
+html body {
+     padding-top: 65px;
+    }
+
 button {
   padding: 9px 25px;
   background-color: #d9b411;
@@ -49,4 +53,100 @@ button {
 button:hover {
   color: #ededed;
   background-color: #1e1e1f;
+}
+
+
+
+.industrycenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input[type='checkbox'] {
+  display: none;
+}
+
+.toggle:checked + .lbl-toggle {
+  background-color: var(--font-color);
+  color: var(--bg-color);
+  padding: 2px 4px;
+}
+
+.lbl-toggle:hover {
+  background-color: var(--font-color);
+  color: var(--bg-color);
+  padding: 2px 4px;
+}
+
+.lbl-toggle {
+  margin-bottom: 7px;
+  font-family: 'Raleway', 'sans-serif';
+  color: #ededed;
+  font-size: 27px;
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lbl-toggle:hover {
+  color: #d9b411;
+}
+
+
+.collapsible-content {
+  max-height: 0px;
+  overflow: hidden;
+  transition: .2s ease-in-out;
+  font-family: 'Raleway', 'sans-serif';
+  color: #ededed;
+  font-size: 14px:
+}
+
+.collapsible-content ul, .collapsible-content li {
+  text-align: center;
+  align-items: center;
+}
+
+.toggle:checked + .lbl-toggle + .collapsible-content {
+  max-height: 300vh;
+}
+
+.collapsible-wrapper {
+  margin: 6px;
+}
+h2{
+  font-family: 'Raleway', 'sans-serif';
+  opacity: 0%;
+  color: #ededed;
+}
+h1{
+  font-family: 'Raleway', 'sans-serif';
+  color: #ededed;
+  font-size: 40px;
+  text-align: center;
+}
+h3{
+  font-family: 'Raleway', 'sans-serif';
+  color: #ededed;
+  font-size: 24px;
+  padding-left: 5%;
+  padding-right: 5%:
+}
+p{
+  font-family: 'Raleway', 'sans-serif';
+  color: #ededed;
+  font-size: 14px;
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: center;
+}
+
+h4{
+  font-family: 'Raleway', 'sans-serif';
+  color: #ededed;
+  font-size: 28px;
+  padding-left: 5%;
+  padding-right: 5%:
 }
