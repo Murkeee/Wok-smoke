@@ -71,37 +71,24 @@ input[type='checkbox'] {
 
 .lbl-toggle {
   margin-bottom: 7px;
-  font-size: 12.5px;
+  font-family: 'Raleway', 'sans-serif';
+  color: #ededed;
+  font-size: 14px:
+
 }
 
-.lbl-toggle:hover::before, .lbl-toggle:hover::after {
-  display:inline-block;
-  margin: -4px;
-  transition: transform .3s ease-out;
+.lbl-toggle:hover {
+  color: #d9b411;
 }
 
-.lbl-toggle::after {
-  display: none;
-  content: '< ';
-  transition: transform .6s ease-out;
-}
-
-.lbl-toggle::before {
-  display: none;
-  content: '> ';
-  transition: transform .6s ease-out;
-}
-
-.toggle:checked + .lbl-toggle::before, .toggle:checked + .lbl-toggle::after {
-  display:inline-block;
-  margin: -4px;
-  transform: rotate(180deg) translateY(-1.5px) translateX(1px);
-}
 
 .collapsible-content {
   max-height: 0px;
   overflow: hidden;
   transition: max-height .2s ease-in-out;
+  font-family: 'Raleway', 'sans-serif';
+  color: #ededed;
+  font-size: 14px:
 }
 
 .collapsible-content ul, .collapsible-content li {
@@ -114,4 +101,87 @@ input[type='checkbox'] {
 
 .collapsible-wrapper {
   margin: 6px;
+}
+h2{
+  font-family: 'Raleway', 'sans-serif';
+  color: #ededed;
+}
+h1{
+  font-family: 'Raleway', 'sans-serif';
+  color: #ededed;
+  font-size: 40px;
+  text-align: center;
+}
+h3{
+  font-family: 'Raleway', 'sans-serif';
+  color: #ededed;
+  font-size: 24px;
+  padding-left: 5%;
+  padding-right: 5%:
+}
+p{
+  font-family: 'Raleway', 'sans-serif';
+  color: #ededed;
+  font-size: 14px;
+  padding-left: 5%;
+  padding-right: 5%:
+}
+label{
+  font-family: 'Raleway', 'sans-serif';
+  color: #ededed;
+  font-size: 32px;
+  padding-left: 5%;
+  padding-right: 5%:
+}
+h4{
+  font-family: 'Raleway', 'sans-serif';
+  color: #ededed;
+  font-size: 28px;
+  padding-left: 5%;
+  padding-right: 5%:
+}
+* {box-sizing: border-box}
+
+
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 800px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+
+.image {
+  display: block;
+  width: 675px;
+  height: 420px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 675px;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-family: 'Raleway', 'sans-serif';
+}
+
+
+.container:hover .overlay {
+  opacity: 1;
+  padding-left: 5%;
+  padding-right: 5%;
 }
