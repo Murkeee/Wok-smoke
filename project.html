@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" style="background-color: #2e2f30;">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css\industry.css">
+    <title></title>
+  </head>
+  <div class="header">
+    <header>
+      <img class="nav" src="" alt="">
+      <nav>
+          <ul class="nav_links">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="Team.html">THE TEAM</a></li>
+            <li><a href="industry.html">THE INDUSTRY</a></li>
+            <li><a href="interview.html">INTERVIEW</a></li>
+            <li><a href="project.html">THE PROJECT</a></li>
+            <li><a href="Technologies.html">TECHNOLOGIES</a></li>
+            <li><a href="https://github.com/Murkeee/Wok-smoke">GITHUB</a></li>
+          </ul>
+      </nav>
+      <a class="button" href="https://www.rmit.edu.au/contact"><button>CONTACT</button></a>
+    </header>
+  </div>
+  <br>
+  </br>
+    <h1>
+      INDUSTRY DATA
+    </h1>
+
+  <div class="collapsible-wrapper" style="padding: 10px; margin: auto">
+      <input id="collapsible-matt" class="toggle" type="checkbox">
+      <label for="collapsible-matt" class="lbl-toggle" style="padding: 5px 5px;"> PROJECT IDEA </label>
+      <div class="collapsible-content">
+        <p>
+          EXTRACTED FROM TYSON DAI, 2022, *COSC1078 ASSIGNMENT 1 REPORT.PDF*
+          <br>
+        </br>
+            Overview:
+            The Overall idea of this project is to create a ‘smart mirror’ implementation which will:
+            1.Activate upon the detection of a user in front of the mirror (motion detection will likely be used)
+            2.Collect and display important daily information such as the weather, current news events or user chosen news topics.
+            3.Use the collected data to help the user determine the best course of action for skincare and clothing-choice for any given day.
+            It is also intended for the product to have user customizability and personalization options which can be controlled using the matching mobile application which allows the user to adjust and alter the location of widgets, etc
+
+          <br>
+        </br>
+
+        </p>
+    </div>
+  </div>
+  <div class="collapsible-wrapper" style="padding: 10px; margin: auto">
+      <input id="collapsible-tyson" class="toggle" type="checkbox">
+      <label for="collapsible-tyson" class="lbl-toggle" style="padding: 5px 5px;"> MOTIVATION </label>
+      <div class="collapsible-content">
+        <p>
+          Although many people have access to so much information in the palm of their hands, not all these people have the time or patience to go through multiple sites and google searches just to find this information. I believe this product will help eliminate the hassle by collecting and displaying information for the user with recommendations on clothing choice and skincare choices based on the collected information. Moreover, with the recent event of Covid-19 and its ‘lockdowns’ there has been a surge in the popularity of the already rapidly growing self care and skincare markets meaning more people are realising the importance of self care and skin care this is evident in Mordor Intelligence’s market report labelled “Australia skin care products market – growth, trends, covid-19 impact, and forecasts (2022-2027)” This is important because while there is a growth in the market it means there are also more people who simply use skincare products without a second thought because it might’ve been recommended to them by another person rather than having recommendations given based on user input and data. Another reason for this project is to reduce the screen usage time when waking up as I know many struggle with always checking their phone in the morning. This project will help to reduce the screen usage time by providing another method of getting the information you need to go throughout your day.
+
+          <br>
+        </br>
+          Second, the product will collect and display information on the weather and relevant news events. The collection of weather data is likely the simplest part as there are many ways to gather this data for free without the use of proprietary systems. One way weather information can be streamed is using weather APIs which are generally free to use, some examples include: OpenWeatherMap, Weatherbit, Accuweather and Tomorrow.io. Similarly, to weather APIs, there are also news APIs which can be used to collect and therefore display news to the user. These APIs are lightweight meaning they can be easily implemented in the product using something like Raspberry Pi and provide accurate weather forecasts, alerts, and conditions as well as the latest and up-to-date news for any given topic making them perfect for the product in question.\
+
+          <br>
+        </br>
+          Third, the product should use and/or collect the appropriate data to provide the user with recommendations on daily clothing choice and skin-care choice. The former would be the easier of the two to implement as we can easily provide clothing suggestions based on weather information such as temperature, humidity, wind speed and precipitation which would have already been collected using the aforementioned weather APIs. Using the weather data, we can make suggestions such as wearing warmer clothes due to lower temperature or bringing an umbrella due to the precipitation predictions. For any given day. The latter function of providing skin-care advice is the more difficult of the two as while it is easy to say something like “put on sunscreen, it’s sunny” it’s very difficult to provide precise advice and information about the health of a person’s skin. One solution may be to use some AI to analyse an image and output information based on the AI’s analysis, while this is doable it would take a large amount of R&D to produce something tangibly accurate and precise enough to match the needs of each individual user as we would also have to take into consideration different skin-types and user needs.
+
+          <br>
+        </br>
+          Those are the three main functions of the product. Some auxiliary features that should be considered after the main functions have been implemented, is user personalization and customization. Optional features for customization or display can vary from widget placement, health information from a compatible application and device, upcoming reminders/appointments, calendars, traffic reports and more. The user would be able to add and customise the information that they wish to see, for example stock or cryptocurrency price and information. Furthermore another optional detail, if our smart mirror features LED light is the user ability to adjust colour, warmth and light level/brightness of the mirror. Two other ambitious optional components for the smart mirror are the ability to play sound from either the monitor itself or added speakers, to either play music or videos as the mirror could act as a media player of sorts. And lastly the very optional side feature of the vibrating alarm bed that connects to the associated smart mirror application or device. This feature would need a connection of sorts such as Bluetooth or WI-FI. And the device would need a strong enough vibration device(s) to help assist the user with waking up as it would need to be strong enough to vibrate the bed. The user would be able to turn it off via the application, mirror touchscreen or device that connects to the mirror. Many people of our target audience value the aesthetics of products and often that can be a dealbreaker, so it is important that user personalization and customization are available whether that be using an external control such as a smartphone or a remote or through inbuilt controls like a side panel or touch screen type control.
+        </p>
+    </div>
+  </div>
+  <div class="collapsible-wrapper" style="padding: 10px; margin: auto">
+      <input id="collapsible-justin" class="toggle" type="checkbox">
+      <label for="collapsible-justin" class="lbl-toggle" style="padding: 5px 5px;"> TOOLS AND TECH </label>
+      <div class="collapsible-content">
+          <p>
+            The required tools for prototyping would include simple carpentry tools such as drills, saws etc. We would also require access to a computer with which I will use VS code as that is my preferred software for coding. Hardware required would include a mirror, a frame and a monitor, as well as a Raspberry Pi on which the mirror will operate on. I will likely use glass on which I will attach one-way glass onto rather than using a fully opaque mirror. I have also thought about the possibility of water proofing using an ‘o-ring’ like seal around the frame to prevent moisture from entering the product and therefore prevent damage. For prototyping it could be desirable to have access to a 3D printer for more rapid prototyping.
+
+            <br>
+          </br>
+
+          </p>
+      </div>
+  </div>
+  <div class="collapsible-wrapper" style="padding: 10px; margin: auto">
+      <input id="collapsible-dylan" class="toggle" type="checkbox">
+      <label for="collapsible-dylan" class="lbl-toggle" style="padding: 5px 5px;"> SKILLS REQUIRED </label>
+      <div class="collapsible-content">
+          <p>
+            The skills required include some hands-on skills with DIY projects of which is not difficult to find, and skills in the use of Raspberry Pi and several programming languages, which is also feasible. The most difficult part would be the ‘skin-care’ feature which if we are being ambitious would require personnel with experience in AI programming and image processing, which I believe is likely not as feasible and this function will likely not be implemented in the first iteration prototype. The hardware is the easiest part as all the required tools and technology are easily available online and in stores.
+            <br>
+            </br>
+
+          </p>
+      </div>
+  </div>
+  <div class="collapsible-wrapper" style="padding: 10px; margin: auto">
+      <input id="collapsible-dylan" class="toggle" type="checkbox">
+      <label for="collapsible-dylan" class="lbl-toggle" style="padding: 5px 5px;"> OUTCOME </label>
+      <div class="collapsible-content">
+          <p>
+            If the project is successful, the product will improve daily lives by changing the way we wake up every day. Instead of waking up to our phones we will wake up to the mirror and all the information you need is already there, all you need is a quick glance to revise information and not miss anything, therefore reducing phone screen time in the morning. Overall, the project will help reduce the time it takes to get ready after waking up. For example, as you brush your teeth or prepare for the day in front of the smart mirror you can view useful information such as traffic reports without interrupting your morning routine. This would greatly increase morning productivity. In addition to this it would also benefit the user’s eye health and possibly even mental health by reducing the need to check one’s phone in the morning.
+            <br>
+            </br>
+
+          </p>
+      </div>
+  </div>
