@@ -6,7 +6,6 @@ header {
   top: 0;
   width: 100%;
   margin: 0;
-  margin-left: -0.51%;
   padding-top: 0.5%;
   padding-bottom: 0.5%;
   color: #ededed;
@@ -14,17 +13,25 @@ header {
 
   display: flex;
   background-color: #1b1b1c;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+
+}
+
+/* FOR DISABLE HORIZONTAL SCROLL*/
+
+.sidebar {
+  overflow-x: hidden; /* Disable horizontal scroll */
 }
 
 .nav_links {
+  font-family: 'Raleway', 'sans-serif';
   list-style: none;
 }
 
 .nav_links li {
   display: inline-block;
-  padding: 0px 0px;
+  padding: 100px 50px;
 }
 
 .nav_links li a {
@@ -36,6 +43,42 @@ header {
 .nav_links li a:hover {
   color: #d9b411;
 }
+
+body, html {
+  height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+  align-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://raw.githubusercontent.com/Murkeee/Wok-smoke/main/image/stock-photo-smart-mirror.jpg");
+
+  /* Set a specific height */
+  width: 100%;
+  height: 110%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  font-weight: bolder;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
 
 button {
   padding: 9px 25px;
@@ -49,4 +92,13 @@ button {
 button:hover {
   color: #ededed;
   background-color: #1e1e1f;
+}
+
+h1 {
+  font-family: 'Raleway', 'sans-serif';
+  font-size: 80px
+}
+h3 {
+  font-family: 'Raleway', 'sans-serif';
+  font-size: 11px
 }
